@@ -1,0 +1,129 @@
+{
+  "id": "ravenloft",
+  "title": "Ravenloft",
+  "version": "0.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "CoS": "Curse of Strahd",
+        "VRGtR": "Van Richten's Guide to Ravenloft"
+      }
+    }
+  },
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/ravenloft/misc/ravenloft_thumb.webp",
+      "thumbnail": "modules/ravenloft/misc/ravenloft_thumb.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Ravenloft",
+      "sorting": "a",
+      "color": "#8e0b0b",
+      "packs": [
+        "species",
+        "backgrounds",
+        "classes",
+        "bestiary",
+        "magic-items",
+        "scenes",
+        "roll-tables"
+      ],
+      "folders": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "John Weland",
+      "url": "https://github.com/johnweland",
+      "discord": "johnnydanger",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "species",
+      "label": "Species",
+      "path": "packs/species",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "backgrounds",
+      "label": "Backgrounds",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bestiary",
+      "label": "Bestiary",
+      "path": "packs/bestiary",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "magic-items",
+      "label": "Magic Items",
+      "path": "packs/magic-items",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "roll-tables",
+      "label": "Roll Tables",
+      "path": "packs/roll-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ]
+}
