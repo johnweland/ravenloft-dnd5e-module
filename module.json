@@ -1,7 +1,13 @@
 {
   "id": "ravenloft",
   "title": "Ravenloft",
-  "version": "0.0.0",
+  "version": "#{VERSION}#",
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "changelog": "#{CHANGELOG}#",
+  "license": "LICENSE",
+  "readme": "README.md",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -9,16 +15,24 @@
   "flags": {
     "dnd5e": {
       "sourceBooks": {
-        "CoS": "Curse of Strahd",
-        "VRGtR": "Van Richten's Guide to Ravenloft"
+        "CoS": "SOURCE.BOOK.CoS",
+        "VRGtR": "SOURCE.BOOK.VRGtR"
       }
     }
   },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
   "media": [
     {
       "type": "setup",
-      "url": "modules/ravenloft/misc/ravenloft_thumb.webp",
-      "thumbnail": "modules/ravenloft/misc/ravenloft_thumb.webp",
+      "url": "modules/ravenloft/images/misc/ravenloft_thumb.webp",
+      "thumbnail": "modules/ravenloft/images/misc/ravenloft_thumb.webp",
       "loop": false,
       "flags": {}
     }
